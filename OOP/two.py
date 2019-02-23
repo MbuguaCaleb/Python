@@ -1,4 +1,3 @@
-
 class Employee:
 
     raise_amount=1.04
@@ -24,7 +23,6 @@ class Employee:
     def apply_raise(self):
         self.pay=int(self.pay*self.raise_amount)
         
-
 
 
 emp_1=Employee('Caleb','Mbugua',50000)
